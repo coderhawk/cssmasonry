@@ -1,6 +1,33 @@
 @import "components/_variables.scss";
+@import "components/_masonry.scss";
 
 body{
     background-color:$body-color;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px double gray;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+         margin:0;
+         padding:10px;
+         color: #666;
+    }
+}
+
+.footer{
+    font-size: xx-small;
+    padding:10px;
+    color: #666;
+    background: #ccc;
 }

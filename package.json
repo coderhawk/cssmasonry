@@ -1,0 +1,35 @@
+{
+  "name": "css-masonry",
+  "version": "1.0.0",
+  "description": "autogrow div boxed layout css3 sass",
+  "main": "/src/index.html",
+  "scripts": {
+    "watch": "gulp styles",
+    "test": "echo \"no scripts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderhawk/cssmasonry.git"
+  },
+  "keywords": [
+    "css3",
+    "sass",
+    "html5",
+    "masonry",
+    "boxed-layout"
+  ],
+  "author": "CoderHawk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderhawk/cssmasonry/issues"
+  },
+  "homepage": "https://github.com/coderhawk/cssmasonry#readme",
+  "dependencies": {
+    "node-sass": "^4.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

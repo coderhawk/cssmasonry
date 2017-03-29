@@ -1,3 +1,3 @@
 # CSS Masonry
 
-This is a responsive masonnry kind of layout using CSS3 (with SASS)
+This is a responsive masonry kind of layout using CSS3 (with SASS)

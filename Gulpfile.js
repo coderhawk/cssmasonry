@@ -57,9 +57,14 @@ gulp.task('default',function() {
 
 // only for release
 gulp.task('release', function () {
-  return gulp
-    .src(input)
+  // CSS
+   gulp
+    .src(cssInput)
     .pipe(sass({ outputStyle: 'compressed' }))
     .pipe(autoprefixer(autoprefixerOptions))
-    .pipe(gulp.dest(output));
+    .pipe(gulp.dest(cssOutput));
+  // Html
+  gulp.src(htmlInput)
+    .pipe(gulp.dest(htmlOutput))
+    .pipe(browserSync.stream());
 });
